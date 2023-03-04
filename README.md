@@ -21,10 +21,12 @@ Library for Arduino that allows users to chat with the GPT model from OpenAI.
    ```cpp
    #include <ArduinoChatGPT.h>
 2. Create an instance of the ArduinoChatGPT class, passing in your OpenAI API key:
-  ArduinoChatGPT chat("YOUR_OPENAI_API_KEY");
+   ```cpp
+   ArduinoChatGPT chat("YOUR_OPENAI_API_KEY");
 
 3. Send a message to the GPT model using the sendMessage() method:
-  String response = chat.sendMessage("Hello, how are you?");
+   ```cpp
+   String response = chat.sendMessage("Hello, how are you?");
 
 
 4. Use the response variable to retrieve the response from the GPT model.
